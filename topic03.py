@@ -5,4 +5,5 @@ file = open("filename.txt", "w")
 file.write("Hello, World!")
 
 # Close the file
+file.fileno();
 file.close()
